@@ -4,8 +4,8 @@ import { Particles } from "../components";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Component {...pageProps} />
       <Particles />
+      <Component {...pageProps} />;
     </div>
   );
 }
