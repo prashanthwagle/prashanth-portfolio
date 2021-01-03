@@ -3,7 +3,15 @@ import Particles from "react-particles-js";
 function ParticleBackground() {
   return (
     <Particles
-      style={{ backgroundColor: "black" }}
+      style={{
+        backgroundColor: "#11112d",
+        position: "fixed",
+        top: "0",
+        left: "0",
+        height: "100%",
+        width: "100%",
+        zIndex: "-1",
+      }}
       params={{
         particles: {
           number: {
