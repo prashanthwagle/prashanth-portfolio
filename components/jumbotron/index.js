@@ -3,8 +3,8 @@ import Typewriter from "typewriter-effect";
 export default function Jumbotron({ ...restProps }) {
   return (
     <div {...restProps}>
-      <div className="mx-auto flex max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="sm:text-center lg:text-left my-auto">
+      <div className="mx-auto flex md:flex-row flex-col-reverse	 max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="md:text-left md:mt-0 mt-6 text-center my-auto">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <div className="block text-indigo-600 xl:inline">
               Hello friend!, <span className="animate-wave">👋🏻</span> <br />
@@ -18,6 +18,7 @@ export default function Jumbotron({ ...restProps }) {
                   "I am an Engineer",
                   "I am a Developer",
                   "I am a Researcher",
+                  "I am a bibliophile",
                 ],
                 autoStart: true,
                 loop: true,
@@ -25,7 +26,14 @@ export default function Jumbotron({ ...restProps }) {
             />
           </div>
         </div>
-        <img className="h-96 mx-auto" src="/heroImage.png" />
+        <img
+          className="h-96 mx-auto"
+          src="/heroImage.png"
+          style={{
+            maxWidth: "100%",
+            display: "block",
+          }}
+        />
       </div>
     </div>
   );
