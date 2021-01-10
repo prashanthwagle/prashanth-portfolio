@@ -7,7 +7,12 @@ export default function Jumbotron({ ...restProps }) {
         <div className="md:text-left md:mt-0 mt-6 text-center my-auto">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <div className="block text-indigo-600 xl:inline">
-              Hello friend!, <span className="animate-wave">👋🏻</span> <br />
+              Hello friend!, <span className="animate-wave">👋🏻</span>
+            </div>
+            <div
+              className="block text-indigo-600 xl:inline"
+              style={{ display: "block" }}
+            >
               I'm Prashanth
             </div>
           </h1>
