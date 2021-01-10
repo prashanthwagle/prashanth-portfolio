@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <div className="container mx-auto px-4">
         <Jumbotron className="mt-20" />
@@ -20,6 +20,10 @@ export default function Home() {
         adipisicing elit. Asperiores harum voluptate tempore. Perspiciatis
         delectus quaerat provident, cum, error eum veniam eligendi ullam
         dignissimos cupiditate laborum tempore, itaque dolore tenetur explicabo!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid
+        cumque rem praesentium laudantium accusamus ab repudiandae illum
+        inventore pariatur? Consequatur fugiat praesentium temporibus iste alias
+        soluta porro ducimus expedita!
       </div>
       <Footer />
     </div>

@@ -3,10 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div style={{ position: "sticky", top: 0 }}>
-      <div
-        className="absolute top-0 h-full w-full opacity-70"
-        style={{ backgroundColor: "#11112D" }}
-      ></div>
+      <div className="absolute top-0 h-full w-full  bg-darkViolet"></div>
       <nav className="h-12 w-full sticky">
         <ul className="list-none flex justify-evenly	">
           <li>

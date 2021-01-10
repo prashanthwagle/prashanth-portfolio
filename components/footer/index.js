@@ -7,14 +7,11 @@ function Footer() {
     { text: "Social Media Links", position: "right" },
   ];
   return (
-    <div
-      className="flex justify-between mt-10 bg-gray-500 p-2"
-      style={{ backgroundColor: "#4F46E5", color: "white" }}
-    >
+    <div className="flex justify-between mt-10 bg-darkViolet text-white p-2">
       {footerNotes.map((fragment) => (
         <div
           key={fragment.position}
-          className={`text-${fragment.position} flex-1`}
+          className={`text-${fragment.position} flex-1  text-white`}
         >
           {fragment.text}
         </div>
