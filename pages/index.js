@@ -1,3 +1,4 @@
+import About from "../components/about";
 import Footer from "../components/footer";
 import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
@@ -6,24 +7,11 @@ export default function Home() {
   return (
     <div className="">
       <Navbar />
-      <div className="container mx-auto px-4">
-        <Jumbotron className="mt-20" />
+      <div className="container mx-auto mt-20 px-4">
+        <Jumbotron />
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur
-        doloremque commodi sit, debitis, obcaecati earum necessitatibus repellat
-        impedit ipsum qui vel voluptates praesentium assumenda dolore dolorum
-        tenetur eveniet eos? Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Non nemo sed eius, suscipit labore distinctio consectetur quasi
-        reiciendis nostrum architecto, enim autem quis blanditiis aliquam qui
-        quas, ipsa hic eaque. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Asperiores harum voluptate tempore. Perspiciatis
-        delectus quaerat provident, cum, error eum veniam eligendi ullam
-        dignissimos cupiditate laborum tempore, itaque dolore tenetur explicabo!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid
-        cumque rem praesentium laudantium accusamus ab repudiandae illum
-        inventore pariatur? Consequatur fugiat praesentium temporibus iste alias
-        soluta porro ducimus expedita!
+      <div className="container mx-auto mt-20 px-4">
+        <About />
       </div>
       <Footer />
     </div>
