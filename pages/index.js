@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Footer from "../components/footer";
 import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
 
@@ -10,21 +10,18 @@ export default function Home() {
         <Jumbotron className="mt-20" />
       </div>
       <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem
-        asperiores eos dicta recusandae veniam! Distinctio earum aut accusamus
-        obcaecati id, vitae nisi officiis perferendis voluptatum autem fugit
-        molestiae porro optio! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Provident accusamus ullam dicta debitis atque ab
-        voluptatum, hic, asperiores vero sit rerum labore officia numquam.
-        Repellendus ea atque est unde assumenda. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Sapiente placeat nostrum, temporibus
-        nesciunt, soluta error esse voluptatum accusamus assumenda ipsum
-        asperiores dolores labore architecto facere quos praesentium, quae porro
-        reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Ipsum voluptates odit, dicta beatae saepe aut exercitationem, itaque
-        fugit repellat natus voluptatem inventore, a magnam voluptatibus
-        reprehenderit quibusdam ut reiciendis id!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur
+        doloremque commodi sit, debitis, obcaecati earum necessitatibus repellat
+        impedit ipsum qui vel voluptates praesentium assumenda dolore dolorum
+        tenetur eveniet eos? Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Non nemo sed eius, suscipit labore distinctio consectetur quasi
+        reiciendis nostrum architecto, enim autem quis blanditiis aliquam qui
+        quas, ipsa hic eaque. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Asperiores harum voluptate tempore. Perspiciatis
+        delectus quaerat provident, cum, error eum veniam eligendi ullam
+        dignissimos cupiditate laborum tempore, itaque dolore tenetur explicabo!
       </div>
+      <Footer />
     </div>
   );
 }
