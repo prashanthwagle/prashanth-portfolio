@@ -4,7 +4,7 @@ function ParticleBackground() {
   return (
     <Particles
       style={{
-        backgroundColor: "#240b36",
+        backgroundColor: "#5CDB94",
         position: "fixed",
         top: "0",
         left: "0",
