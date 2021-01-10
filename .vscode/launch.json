@@ -7,10 +7,10 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch brave against localhost",
+            "name": "Launch brave against localhost",  
             "userDataDir": false,
-            "url": "http://localhost:3000",
             "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser-Dev\\Application\\brave.exe",
+            "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}/.vscode/vscode-chrome-debug-userdatadir"
         }
     ]
