@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 
-function Navbar() {
+function Navbar({ jumboRef, aboutRef }) {
   const iconSet = ["fa-home", "fa-briefcase", "fa-language", "fa-tools"];
-
+  console.log(jumboRef, aboutRef);
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "2" }}>
       <div className="absolute top-0 h-full w-full bg-darkViolet"></div>
