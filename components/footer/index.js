@@ -2,20 +2,35 @@ import React from "react";
 
 function Footer() {
   const footerNotes = [
-    { text: "Design and Developed by Prashanth Wagle", position: "left" },
+    {
+      text: `Built with ❤️‍ with ${React.createElement(
+        "div",
+        "TEXT"
+      )} and Tailwind
+    `,
+      position: "left",
+    },
     { text: "Copyright © 2021", position: "center" },
     { text: "Social Media Links", position: "right" },
   ];
   return (
     <div className="flex justify-between mt-10 bg-darkViolet text-white p-2">
-      {footerNotes.map((fragment) => (
-        <div
-          key={fragment.position}
-          className={`text-${fragment.position} flex-1  text-white`}
-        >
-          {fragment.text}
-        </div>
-      ))}
+      <div className={`text-left flex-1  text-white`}>
+        Built with ❤️‍ with{" "}
+        <img
+          className="inline"
+          src="https://img.shields.io/badge/NextJS%20-black.svg?&style=for-the-badge&logo=NextJS&logoColor=white"
+          style={{ transform: "scale(0.8)" }}
+        />
+        and
+        <img
+          className="inline"
+          src="https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white"
+          style={{ transform: "scale(0.8 )" }}
+        />
+      </div>
+      <div className={`text-center flex-1  text-white`}>Copyright © 2021</div>
+      <div className={`text-right flex-1  text-white`}>Social Media Links</div>
     </div>
   );
 }
