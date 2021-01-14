@@ -1,4 +1,4 @@
-import { createContext, createRef, useEffect, useState } from "react";
+import { createContext, createRef, useRef, useEffect, useState } from "react";
 import About from "../components/about";
 import Footer from "../components/footer";
 import Jumbotron from "../components/jumbotron";
@@ -8,23 +8,24 @@ import { Container } from "../components";
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
-  const jumboRef = createRef(null);
-  const aboutRef = createRef(null);
-
   useEffect(() => {
-    console.log("Loadng");
     setLoading(false);
   }, []);
 
+  const aboutRef = useRef(null);
+
   return !loading ? (
     <>
-      <Navbar jumboRef={jumboRef} aboutRef={aboutRef} />
+      <Navbar aboutRef={aboutRef} />
+
       <Container fadeDir="left">
         <Jumbotron />
       </Container>
+      <div id="about" ref={aboutRef} />
       <Container fadeDir="right">
         <About />
       </Container>
+
       <Footer />
     </>
   ) : (

@@ -1,8 +1,14 @@
 import React, { useContext } from "react";
 
-function Navbar({ jumboRef, aboutRef }) {
-  const iconSet = ["fa-home", "fa-briefcase", "fa-language", "fa-tools"];
-  console.log(jumboRef, aboutRef);
+function Navbar({ aboutRef }) {
+  const iconSet = [
+    "fa-home",
+    "fa-info-circle",
+    "fa-briefcase",
+    "fa-language",
+    "fa-tools",
+  ];
+
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "2" }}>
       <div className="absolute top-0 h-full w-full bg-darkViolet"></div>
@@ -18,6 +24,9 @@ function Navbar({ jumboRef, aboutRef }) {
                 onMouseLeave={(e) => {
                   e.target.classList.remove("text-darkGray");
                   e.target.classList.add("text-white");
+                }}
+                onClick={() => {
+                  aboutRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
                 className={`fas ${item} relative top-2/4 text-white cursor-pointer hover:text-blue-500`}
               ></i>
