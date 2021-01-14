@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
 import { Container } from "../components";
+import Timeline from "../components/timeline";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,9 @@ export default function Home() {
       <Container fadeDir="right">
         <About />
       </Container>
-
+      <Container fadeDir="right">
+        <Timeline />
+      </Container>
       <Footer />
     </>
   ) : (

@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { Particles } from "../components";
 import Head from "next/head";
+import "react-vertical-timeline-component/style.min.css";
 
 function MyApp({ Component, pageProps }) {
   return (
