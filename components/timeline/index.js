@@ -91,7 +91,7 @@ function Timeline() {
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        date="Dec 2020"
+        date="Sep 2020 - Present"
         iconStyle={{
           background: "rgb(33, 150, 243)",
           color: "#fff",
@@ -107,7 +107,7 @@ function Timeline() {
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
-        date="Dec 2020"
+        date="May 2020 - June 2020"
         iconStyle={{
           background: "rgb(33, 150, 243)",
           color: "#fff",
