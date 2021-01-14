@@ -15,10 +15,11 @@ export default function Home() {
 
   const aboutRef = useRef(null);
   const homeRef = useRef(null);
+  const timelineRef = useRef(null);
 
   return !loading ? (
     <>
-      <Navbar aboutRef={aboutRef} homeRef={homeRef} />
+      <Navbar aboutRef={aboutRef} homeRef={homeRef} timelineRef={timelineRef} />
       <div id="home" ref={homeRef} />
       <Container fadeDir="left">
         <Jumbotron />
@@ -27,9 +28,11 @@ export default function Home() {
       <Container fadeDir="right">
         <About />
       </Container>
+      <div id="about" ref={timelineRef} />
       <Container fadeDir="right">
         <Timeline />
       </Container>
+
       <Footer />
     </>
   ) : (
