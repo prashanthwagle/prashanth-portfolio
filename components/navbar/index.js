@@ -1,13 +1,7 @@
 import React, { useContext } from "react";
 
-function Navbar({ aboutRef, homeRef }) {
-  const iconSet = [
-    "fa-home",
-    "fa-info-circle",
-    "fa-briefcase",
-    "fa-language",
-    "fa-tools",
-  ];
+function Navbar({ aboutRef, homeRef, timelineRef }) {
+  const iconSet = ["fa-home", "fa-info-circle", "fa-tools", "fa-language"];
 
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "2" }}>
@@ -30,6 +24,8 @@ function Navbar({ aboutRef, homeRef }) {
                     homeRef.current.scrollIntoView({ behavior: "smooth" });
                   if (item === "fa-info-circle")
                     aboutRef.current.scrollIntoView({ behavior: "smooth" });
+                  if (item === "fa-tools")
+                    timelineRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
                 className={`fas ${item} relative top-2/4 text-white cursor-pointer hover:text-blue-500`}
               ></i>
