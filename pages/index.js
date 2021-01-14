@@ -13,11 +13,12 @@ export default function Home() {
   }, []);
 
   const aboutRef = useRef(null);
+  const homeRef = useRef(null);
 
   return !loading ? (
     <>
-      <Navbar aboutRef={aboutRef} />
-
+      <Navbar aboutRef={aboutRef} homeRef={homeRef} />
+      <div id="home" ref={homeRef} />
       <Container fadeDir="left">
         <Jumbotron />
       </Container>

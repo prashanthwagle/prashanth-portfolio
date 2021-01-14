@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-function Navbar({ aboutRef }) {
+function Navbar({ aboutRef, homeRef }) {
   const iconSet = [
     "fa-home",
     "fa-info-circle",
@@ -26,7 +26,10 @@ function Navbar({ aboutRef }) {
                   e.target.classList.add("text-white");
                 }}
                 onClick={() => {
-                  aboutRef.current.scrollIntoView({ behavior: "smooth" });
+                  if (item === "fa-home")
+                    homeRef.current.scrollIntoView({ behavior: "smooth" });
+                  if (item === "fa-info-circle")
+                    aboutRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
                 className={`fas ${item} relative top-2/4 text-white cursor-pointer hover:text-blue-500`}
               ></i>
