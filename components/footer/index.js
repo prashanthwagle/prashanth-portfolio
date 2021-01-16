@@ -30,7 +30,17 @@ function Footer() {
         />
       </div>
       <div className={`text-center flex-1  text-white`}>Copyright © 2021</div>
-      <div className={`text-right flex-1  text-white`}>Social Media Links</div>
+      <div className={`text-right flex-1  text-white`}>
+        <a
+          href="https://www.linkedin.com/in/prashanth-p-wagle360/"
+          target="_blank"
+        >
+          <i className="fab fa-linkedin-in mx-2"></i>
+        </a>
+        <a href="https://github.com/prashanthwagle" target="_blank">
+          <i className="fab fa-github mx-2"></i>
+        </a>
+      </div>
     </div>
   );
 }
