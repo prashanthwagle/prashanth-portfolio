@@ -3,7 +3,7 @@ import About from "../components/about";
 import Footer from "../components/footer";
 import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
-import { Container } from "../components";
+import { Container, SkillShowcase } from "../components";
 import Timeline from "../components/timeline";
 
 export default function Home() {
@@ -32,7 +32,9 @@ export default function Home() {
       <Container fadeDir="right">
         <Timeline />
       </Container>
-
+      <Container fadeDir="right">
+        <SkillShowcase />
+      </Container>
       <Footer />
     </>
   ) : (
