@@ -4,7 +4,7 @@ function Navbar({ aboutRef, homeRef, timelineRef }) {
   const iconSet = ["fa-home", "fa-info-circle", "fa-tools", "fa-language"];
 
   return (
-    <div style={{ position: "sticky", top: 0, zIndex: "2" }}>
+    <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
       <div className="absolute top-0 h-full w-full bg-darkViolet"></div>
       <nav className="h-12 w-full sticky">
         <ul className="list-none flex justify-evenly">
