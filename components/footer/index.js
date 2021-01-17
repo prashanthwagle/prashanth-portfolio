@@ -14,8 +14,11 @@ function Footer() {
     { text: "Social Media Links", position: "right" },
   ];
   return (
-    <div className="flex justify-between mt-10 bg-darkViolet text-white p-2">
-      <div className={`text-left flex-1  text-white`}>
+    <div
+      style={{ zIndex: "3" }}
+      className="flex md:flex-row flex-col justify-between mt-10 bg-darkViolet text-white p-2"
+    >
+      <div className={`md:text-left text-center flex-1 py-1 text-white`}>
         Built with ❤️‍ with{" "}
         <img
           className="inline"
@@ -29,8 +32,10 @@ function Footer() {
           style={{ transform: "scale(0.8 )" }}
         />
       </div>
-      <div className={`text-center flex-1  text-white`}>Copyright © 2021</div>
-      <div className={`text-right flex-1  text-white`}>
+      <div className={`text-center flex-1 py-1 text-white`}>
+        Copyright © 2021
+      </div>
+      <div className={`md:text-right py-1 text-center  flex-1  text-white`}>
         <a
           href="https://www.linkedin.com/in/prashanth-p-wagle360/"
           target="_blank"
