@@ -8,9 +8,9 @@ function Timeline() {
   return (
     <>
       <h1 className="text-4xl tracking-tight flex justify-center m-8 font-extrabold sm:text-5xl md:text-6xl">
-        <div className="block xl:inline text-lightViolet">Timeline</div>
+        <div className="block xl:inline text-lightViolet">Project Timeline</div>
       </h1>
-      <VerticalTimeline>
+      <VerticalTimeline animate={false}>
         <VerticalTimelineElement
           contentStyle={{ background: "#05396B", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -97,23 +97,6 @@ function Timeline() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          date="Sep 2020 - Present"
-          iconStyle={{
-            background: "rgb(33, 150, 243)",
-            color: "#fff",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-          icon={<i class="fas fa-tools"></i>}
-        >
-          <h3>First Job</h3>
-          <p>
-            Started my first job as a Software Engineer at R&D division of
-            Ethnus
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
           date="May 2020 - June 2020"
           iconStyle={{
             background: "rgb(33, 150, 243)",
@@ -146,6 +129,36 @@ function Timeline() {
               href="https://www.npmjs.com/package/texelector"
             >
               <i class="fab fa-npm"></i>
+            </a>
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          contentStyle={{ background: "#05396B", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Mar 2020"
+          iconStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "#fff",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          icon={<i class="fas fa-briefcase"></i>}
+        >
+          <h3 className="vertical-timeline-element-title">RecipeApp</h3>
+          <p>
+            A blog dedicated for ambitious cooks. Once users sign up, they can
+            add recipes, view others' recipes adn react to it.
+          </p>
+          <p>
+            More Details:{"   "}
+            &nbsp;
+            <a
+              href="#"
+              target="_blank"
+              href="https://github.com/prashanthwagle/RecipeApp"
+            >
+              <i class="fab fa-github"></i>
             </a>
           </p>
         </VerticalTimelineElement>
