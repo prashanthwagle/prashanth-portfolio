@@ -9,19 +9,25 @@ class Container extends React.Component {
 
   render() {
     const { fadeDir, children, ...restProps } = this.props;
+
+    let wrapperComponent = <div>{children}</div>;
+
+    if (fadeDir === "left")
+      wrapperComponent = (
+        <div>
+          <Fade left>{children}</Fade>
+        </div>
+      );
+    else if (fadeDir === "right")
+      wrapperComponent = (
+        <div>
+          <Fade right>{children}</Fade>
+        </div>
+      );
+
     return (
       <div className="container mx-auto mt-20 px-4" {...restProps}>
-        {fadeDir === "left" && (
-          <Fade collapse when={true} left>
-            {children}
-          </Fade>
-        )}
-        {fadeDir === "right" && (
-          <Fade collapse right>
-            {children}
-          </Fade>
-        )}
-        {!fadeDir && { children }}
+        {wrapperComponent}
       </div>
     );
   }
