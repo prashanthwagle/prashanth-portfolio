@@ -1,9 +1,13 @@
 import "../styles/globals.css";
 import { Particles } from "../components";
 import Head from "next/head";
+import dynamic from "next/dynamic";
 import "react-vertical-timeline-component/style.min.css";
 
 function MyApp({ Component, pageProps }) {
+  const ParticleBackground = dynamic(() => import("../components/particles"), {
+    ssr: false,
+  });
   return (
     <div>
       <Head>
@@ -14,10 +18,10 @@ function MyApp({ Component, pageProps }) {
           crossorigin="anonymous"
         />
 
-        <title>bitwise</title>
+        <title>Prashanth Wagle</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Particles />
+      <ParticleBackground />
       <Component {...pageProps} />
     </div>
   );
