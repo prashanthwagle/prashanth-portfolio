@@ -85,8 +85,10 @@ function Timeline() {
         >
           <h3 className="vertical-timeline-element-title">Published a Paper</h3>
           <p>
-            Network Protecttion using Machine Learning with Springer as the
-            platform
+            Network Protection using Machine Learning with Springer as the
+            platform. Originally implemented as a result of industry-academica
+            collaboration between Nitte Meenakshi Institute of Techbology and
+            Unisys
           </p>
           <p>
             Conference Link:{"   "}
@@ -160,6 +162,37 @@ function Timeline() {
             >
               <i class="fab fa-github"></i>
             </a>
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          date="May 2019 - June 2019"
+          iconStyle={{
+            background: "rgb(33, 150, 243)",
+            color: "#fff",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          icon={<i class="fas fa-tools"></i>}
+        >
+          <h3>NAAS: Navigation as a Service</h3>
+          <p>
+            Efficient Indoor Navigation with a mobile application aided by
+            Bluetooth Beacons. Comes with additional features to enhance
+            businesses alongside navigation. Led my team to the top-150 in TCS
+            NginX (2019) competition with this project.
+          </p>
+          <p>
+            More details:{"   "}
+            &nbsp;
+            <a
+              href="#"
+              target="_blank"
+              href="https://github.com/prashanthwagle/IndoorNav1"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            &nbsp; &nbsp;
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
