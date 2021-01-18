@@ -16,11 +16,16 @@ export default function Home() {
   const aboutRef = useRef(null);
   const homeRef = useRef(null);
   const timelineRef = useRef(null);
+  const skillRef = useRef(null);
 
   return !loading ? (
     <>
-     
-      <Navbar aboutRef={aboutRef} homeRef={homeRef} timelineRef={timelineRef} />
+      <Navbar
+        aboutRef={aboutRef}
+        skillRef={skillRef}
+        homeRef={homeRef}
+        timelineRef={timelineRef}
+      />
       <div id="home" ref={homeRef} />
       <main>
         <Container fadeDir="left">
@@ -34,6 +39,7 @@ export default function Home() {
         <Container fadeDir="left">
           <Timeline />
         </Container>
+        <div id="about" ref={skillRef} />
         <Container fadeDir="left">
           <SkillShowcase />
         </Container>
@@ -41,6 +47,15 @@ export default function Home() {
       <Footer />
     </>
   ) : (
-    <h1>Loading</h1>
+    <>
+      <div
+        style={{ backgroundColor: "#5CDB94" }}
+        class="w-full h-full fixed block top-0 left-0 opacity-75 z-50"
+      >
+        <div className="flex justify-center items-center h-full">
+          <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+        </div>
+      </div>
+    </>
   );
 }
