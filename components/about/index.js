@@ -10,7 +10,7 @@ function About() {
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
           <div className="block xl:inline text-lightViolet">About myself</div>
         </h1>
-        <p className="py-5 font-semibold">
+        <p className="py-5 lg:font-semibold">
           I am a Software Developer working at Ethnus R&D based in Bengaluru,
           India.
           <br />
@@ -27,13 +27,14 @@ function About() {
           are the two powerful quotes that I live by.
           <br />
           <br />
-          Whenever I am free, I usually research on topics related to tech and
-          write blogs on topics if I find them interesting. <br />
+          During my off-hours , I usually research on topics related to tech (We
+          can have a long discussion about whatever you like 😃) and write blogs
+          on topics if I find them interesting. <br />
           <br />I have fun by playing video games 🤫, binging on Music or Movies
           🙃 or unleashing the foodie inside of me! 🥳. <br />
-          <br />
-          Apologize for the serious tone! I believe that I have good sense of
-          humour! 🤭
+          <br />I am a Linux enthusiast and I love and respect the open source
+          projects and the community. Do ask me about the Linux Distributions
+          and their details!
         </p>
       </div>
     </div>
