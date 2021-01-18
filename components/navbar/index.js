@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-function Navbar({ aboutRef, homeRef, timelineRef }) {
+function Navbar({ aboutRef, homeRef, timelineRef, skillRef }) {
   const iconSet = ["fa-home", "fa-info-circle", "fa-tools", "fa-language"];
 
   return (
@@ -26,6 +26,8 @@ function Navbar({ aboutRef, homeRef, timelineRef }) {
                     aboutRef.current.scrollIntoView({ behavior: "smooth" });
                   if (item === "fa-tools")
                     timelineRef.current.scrollIntoView({ behavior: "smooth" });
+                  if (item === "fa-language")
+                    skillRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
                 className={`fas ${item} relative top-2/4 text-white cursor-pointer hover:text-blue-500`}
               ></i>
