@@ -47,15 +47,13 @@ export default function Home() {
       <Footer />
     </>
   ) : (
-    <>
-      <div
-        style={{ backgroundColor: "#5CDB94" }}
-        class="w-full h-full fixed block top-0 left-0 opacity-75 z-50"
-      >
-        <div className="flex justify-center items-center h-full">
-          <i class="fas fa-circle-notch fa-spin fa-5x"></i>
-        </div>
+    <div
+      style={{ backgroundColor: "#5CDB94" }}
+      class="w-full h-full fixed block top-0 left-0 opacity-75 z-99"
+    >
+      <div className="flex justify-center items-center h-full">
+        <i class="fas fa-circle-notch fa-spin fa-5x"></i>
       </div>
-    </>
+    </div>
   );
 }
