@@ -45,6 +45,9 @@ function Footer() {
         <a href="https://github.com/prashanthwagle" target="_blank">
           <i className="fab fa-github mx-2"></i>
         </a>
+        <a href="https://medium.com/@prashanthwagle360" target="_blank">
+          <i className="fab fa-medium-m mx-2"></i>
+        </a>
       </div>
     </div>
   );
