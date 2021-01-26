@@ -22,7 +22,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-briefcase"></i>}
+          icon={<i className="fas fa-briefcase"></i>}
         >
           <h3>My Portfolio Website</h3>
           <p>
@@ -36,7 +36,7 @@ function Timeline() {
               target="_blank"
               href="https://github.com/prashanthwagle/prashanth-portfolio"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
           </p>
         </VerticalTimelineElement>
@@ -49,7 +49,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-tools"></i>}
+          icon={<i className="fas fa-tools"></i>}
         >
           <h3 className="vertical-timeline-element-title">
             Netflix React Clone
@@ -66,7 +66,7 @@ function Timeline() {
               target="_blank"
               href="https://github.com/prashanthwagle/netflix-react-clone/"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
           </p>
         </VerticalTimelineElement>
@@ -81,7 +81,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-briefcase"></i>}
+          icon={<i className="fas fa-briefcase"></i>}
         >
           <h3 className="vertical-timeline-element-title">Published a Paper</h3>
           <p>
@@ -107,7 +107,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-tools"></i>}
+          icon={<i className="fas fa-tools"></i>}
         >
           <h3>teXelector</h3>
           <p>
@@ -122,7 +122,7 @@ function Timeline() {
               target="_blank"
               href="https://github.com/prashanthwagle/teXelector"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             &nbsp; &nbsp;
             <a
@@ -130,7 +130,7 @@ function Timeline() {
               target="_blank"
               href="https://www.npmjs.com/package/texelector"
             >
-              <i class="fab fa-npm"></i>
+              <i className="fab fa-npm"></i>
             </a>
           </p>
         </VerticalTimelineElement>
@@ -145,7 +145,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-briefcase"></i>}
+          icon={<i className="fas fa-briefcase"></i>}
         >
           <h3 className="vertical-timeline-element-title">RecipeApp</h3>
           <p>
@@ -160,7 +160,7 @@ function Timeline() {
               target="_blank"
               href="https://github.com/prashanthwagle/RecipeApp"
             >
-              <i class="fab fa-github"></i>
+              <i classname="fab fa-github"></i>
             </a>
           </p>
         </VerticalTimelineElement>
@@ -173,7 +173,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={<i class="fas fa-tools"></i>}
+          icon={<i className="fas fa-tools"></i>}
         >
           <h3>NAAS: Navigation as a Service</h3>
           <p>
