@@ -43,6 +43,18 @@ export default function Home() {
         <Container fadeDir="left">
           <SkillShowcase />
         </Container>
+        <Container>
+          <h1
+            style={{
+              textAlign: "center",
+              color: "white",
+              backgroundColor: "orange",
+              padding: "0.2em",
+            }}
+          >
+            Website currently in active development. Do visit once again!
+          </h1>
+        </Container>
       </main>
       <Footer />
     </>
