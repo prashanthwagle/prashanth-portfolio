@@ -37,6 +37,12 @@ function Footer() {
       </div>
       <div className={`md:text-right py-1 text-center  flex-1  text-white`}>
         <a
+          href="https://stackoverflow.com/users/11004108/prashanth-wagle"
+          target="_blank"
+        >
+          <i className="fab fa-stack-overflow mx-2"></i>
+        </a>
+        <a
           href="https://www.linkedin.com/in/prashanth-p-wagle360/"
           target="_blank"
         >
