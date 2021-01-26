@@ -50,13 +50,21 @@ function SkillShowcase() {
               Backend
             </div>
             <div className="mt-2">
-              Node.js is my primary choice when it comes to building backend
-              systems. My curiosity towards its asynchrounous nature spawned
-              interest towards it and its newer sibling Deno. Python would be my
-              second language of choice (Not a fan of the GIL implementation). I
-              tend to use Flask along with uwsgi. Nginx would be my preferred
-              server in general (you guessued it right!, async!). I have worked
-              with DynamoDB (🤩), MongoDB and MySQL databases.
+              <span className="font-extrabold">Node.js</span> is my primary
+              choice when it comes to building backend systems. My curiosity
+              towards its asynchrounous nature spawned interest towards it and
+              its newer sibling Deno.
+              <span className="font-extrabold">Python</span> would be my second
+              language of choice (Not a fan of the GIL implementation). I tend
+              to use Flask along with uwsgi.{" "}
+              <span className="font-extrabold">Nginx</span> would be my
+              preferred server in general (you guessued it right!, async!). I
+              use <span className="font-extrabold">AWS</span> for building my
+              most backend infrastructure and I have a seprate section for that
+              (👇). I have worked with
+              <span className="font-extrabold"> DynamoDB (🤩)</span>,
+              <span className="font-extrabold">MongoDB</span> and{" "}
+              <span className="font-extrabold">MySQL</span> databases.
             </div>
           </p>
         </div>
@@ -66,17 +74,28 @@ function SkillShowcase() {
               Cloud
             </div>
             <div className="mt-2">
-              Big fan of the Cloud. The very thought of it makes me smile. I
-              have extensively worked on various AWS services like EC2 for
-              hosting, S3 for object storage, DynamoDB and RDS for database,
-              Cognito for user-management and authentication, SQS for a simple
-              queue, SES for sending emails, API gateway for building REST APIs
-              and many more. AWS Cloudformation is a service which has
-              drastically improved my delivery speed and control (It lets you
-              write entire cloud infrastructure as code i.e. IaC). I have used
-              the AWS SAM framework (for building serverless applications) for
-              IaC where I have worked with AWS Lambda (serverless) and other
-              auxilliary services like DynamoDB, SQS etc.
+              I am a big fan of the Cloud. The very thought of it makes me
+              smile. My present organization uses
+              <span className="font-extrabold"> Amazon Web Services</span> as
+              the cloud platform and also provides training on the same. I have
+              extensively worked on various AWS services like{" "}
+              <span className="font-extrabold">EC2</span> for hosting,
+              <span className="font-extrabold"> S3</span> for object storage,
+              <span className="font-extrabold">DynamoDB</span> and{" "}
+              <span className="font-extrabold">RDS </span>for database,{" "}
+              <span className="font-extrabold">Cognito</span> for
+              user-management, access-control and authentication,{" "}
+              <span className="font-extrabold">SQS</span> for a simple messaging
+              queue ,<span className="font-extrabold"> SES </span>for sending
+              emails, API gateway for building REST APIs and many more.{" "}
+              <span className="font-extrabold">AWS Cloudformation</span> is a
+              service which has drastically improved my delivery speed and
+              control (It lets you write entire cloud infrastructure as code
+              i.e. IaC). I have used the{" "}
+              <span className="font-extrabold">AWS SAM</span> framework (for
+              building serverless applications) for IaC where I have worked with{" "}
+              <span className="font-extrabold">AWS Lambda</span> (serverless)
+              and other auxilliary services like DynamoDB, SQS etc.
             </div>
           </p>
         </div>
