@@ -40,3 +40,4 @@ Preload the images for a better UX
 Timeline: Lean the fonts out
 Skills: Do a Card View of the skills
 Change the heart emoji's color in the footer
+Meetups in Aboue me
