@@ -9,32 +9,22 @@ function About() {
       <div className="flex-1">
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
           <div className="block xl:inline text-lightViolet">About myself</div>
+            About myself
+          </div>
         </h1>
-        <p className="py-5 lg:font-semibold">
-          I am a Software Developer working at Ethnus R&D based in Bengaluru,
-          India.
+        <p className="py-5 font-light	text-lightViolet">
+          I am a Software Developer at Ethnus R&D
           <br />
-          <br /> My career goal is to make peoples’ life easy by leveraging
-          technology. <br />
+          <br /> My career goal is to solve problems by building scalable and
+          performant software solutions <br />
           <br />
-          <span className="font-extrabold	">
-            “A question opens the mind, A statement closes the mind”
-          </span>
-          and{" "}
-          <span className="font-extrabold">
-            “If I cannot do great things, I can do small things in a great way”{" "}
-          </span>
-          are the two powerful quotes that I live by.
+          During my off-hours I sharpen my intellect and skills by building
+          projects
+          <br />
+          Apart from being a Software Engineer, I am also an AI researcher
           <br />
           <br />
-          During my off-hours , I usually research on topics related to tech (We
-          can have a long discussion about whatever you like 😃) and write blogs
-          on topics if I find them interesting. <br />
-          <br />I have fun by playing video games 🤫, binging on Music or Movies
-          🙃 or unleashing the foodie inside of me! 🥳. <br />
-          <br />I am a Linux enthusiast and I love and respect the open source
-          projects and the community. Do ask me about the Linux Distributions
-          and their details!
+          My hobbies are reading books and Listening to music <br />
         </p>
       </div>
     </div>
