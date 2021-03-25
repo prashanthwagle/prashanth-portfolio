@@ -10,7 +10,7 @@ function Timeline() {
       <h1 className="text-4xl tracking-tight flex justify-center m-8 font-extrabold sm:text-5xl md:text-6xl">
         <div className="block xl:inline text-lightViolet">Project Timeline</div>
       </h1>
-      <VerticalTimeline animate={false}>
+      <VerticalTimeline animate={true} className="custom-line">
         <VerticalTimelineElement
           contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
