@@ -8,7 +8,9 @@ function Timeline() {
   return (
     <>
       <h1 className="text-4xl tracking-tight flex justify-center m-8 font-extrabold sm:text-5xl md:text-6xl">
-        <div className="block xl:inline text-lightViolet">Project Timeline</div>
+        <div className="font-extralight	 xl:inline text-lightViolet">
+          My Story
+        </div>
       </h1>
       <VerticalTimeline animate={true} className="custom-line">
         <VerticalTimelineElement
@@ -49,11 +51,10 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           icon={<i className="fas fa-tools"></i>}
         >
-          <h3 className="vertical-timeline-element-title">
-            Netflix React Clone
-          </h3>
+          <h3 className="vertical-timeline-element-title">Netflix Clone</h3>
           <p>
             Cloned the netflix frontend where users can signup/login and view
             and watch series/films.
