@@ -8,7 +8,7 @@ function About() {
       </div>
       <div className="flex-1">
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
-          <div className="block xl:inline text-lightViolet">About myself</div>
+          <div className="font-extralight xl:inline text-lightViolet">
             About myself
           </div>
         </h1>
