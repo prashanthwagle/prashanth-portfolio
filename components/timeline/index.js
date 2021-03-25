@@ -12,7 +12,7 @@ function Timeline() {
       </h1>
       <VerticalTimeline animate={false}>
         <VerticalTimelineElement
-          contentStyle={{ background: "#05396B", color: "#fff" }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Jan 2021 - present"
           iconStyle={{
@@ -71,7 +71,7 @@ function Timeline() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          contentStyle={{ background: "#05396B", color: "#fff" }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Dec 2020"
           iconStyle={{
@@ -107,6 +107,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           icon={<i className="fas fa-tools"></i>}
         >
           <h3>teXelector</h3>
@@ -135,7 +136,7 @@ function Timeline() {
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          contentStyle={{ background: "#05396B", color: "#fff" }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Mar 2020"
           iconStyle={{
@@ -173,6 +174,7 @@ function Timeline() {
             justifyContent: "center",
             alignItems: "center",
           }}
+          contentStyle={{ background: "#E3E3E3", color: "#000000" }}
           icon={<i className="fas fa-tools"></i>}
         >
           <h3>NAAS: Navigation as a Service</h3>

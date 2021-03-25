@@ -7,7 +7,7 @@ function ParticleBackground() {
     <>
       <div
         style={{
-          backgroundColor: "#5CDB94",
+          backgroundColor: "white",
           position: "fixed",
           backgroundRepeat: "no-repeat !important",
           backgroundSize: "cover !important",
