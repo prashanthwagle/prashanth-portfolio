@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import { Particles } from "../components";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import "react-vertical-timeline-component/style.min.css";
