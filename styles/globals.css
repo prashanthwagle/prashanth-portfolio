@@ -59,3 +59,7 @@
     }
   }
 }
+
+.custom-line::before {
+  background: #000000 !important;
+}
