@@ -1,18 +1,6 @@
 import React from "react";
 
 function Footer() {
-  const footerNotes = [
-    {
-      text: `Built with ❤️‍ with ${React.createElement(
-        "div",
-        "TEXT"
-      )} and Tailwind
-    `,
-      position: "left",
-    },
-    { text: "Copyright © 2021", position: "center" },
-    { text: "Social Media Links", position: "right" },
-  ];
   return (
     <div
       style={{ zIndex: "3" }}
