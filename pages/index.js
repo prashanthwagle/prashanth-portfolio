@@ -5,6 +5,7 @@ import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
 import { Container, Particles, SkillShowcase } from "../components";
 import Timeline from "../components/timeline";
+import Image from "next/image";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -60,11 +61,17 @@ export default function Home() {
     </>
   ) : (
     <div
-      style={{ backgroundColor: "#5CDB94" }}
+      style={{ backgroundColor: "#fffffff" }}
       class="w-full h-full fixed block top-0 left-0 opacity-75 z-99"
     >
       <div className="flex justify-center items-center h-full">
-        <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+        {/* <i class="fas fa-circle-notch fa-spin fa-5x"></i> */}
+        <Image
+          src="/loading-1.gif"
+          alt="Loading Screen"
+          width={1200}
+          height={1000}
+        />
       </div>
     </div>
   );
