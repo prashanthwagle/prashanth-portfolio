@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import Image from "next/image";
 
 export default function Jumbotron({ ...restProps }) {
   return (
