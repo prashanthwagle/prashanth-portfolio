@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 function Navbar({ aboutRef, homeRef, timelineRef, skillRef }) {
-  const iconSet = ["fa-home", "fa-info-circle", "fa-tools", "fa-language"];
+  const iconSet = ["intro", "about", "devStory", "skills"];
 
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
@@ -10,27 +10,21 @@ function Navbar({ aboutRef, homeRef, timelineRef, skillRef }) {
         <ul className="list-none flex justify-evenly">
           {iconSet.map((item) => (
             <li key={`${item}`}>
-              <i
-                onMouseEnter={(e) => {
-                  e.target.classList.remove("text-white");
-                  e.target.classList.add("text-darkGray");
-                }}
-                onMouseLeave={(e) => {
-                  e.target.classList.remove("text-darkGray");
-                  e.target.classList.add("text-white");
-                }}
+              <div
                 onClick={() => {
-                  if (item === "fa-home")
+                  if (item === "intro")
                     homeRef.current.scrollIntoView({ behavior: "smooth" });
-                  if (item === "fa-info-circle")
+                  if (item === "about")
                     aboutRef.current.scrollIntoView({ behavior: "smooth" });
-                  if (item === "fa-tools")
+                  if (item === "devStory")
                     timelineRef.current.scrollIntoView({ behavior: "smooth" });
-                  if (item === "fa-language")
+                  if (item === "skills")
                     skillRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
-                className={`fas ${item} relative top-2/4 text-white cursor-pointer hover:text-blue-500`}
-              ></i>
+                className={`relative top-2/4 text-white tranform cursor-pointer transform transition duration-500 hover:scale-125`}
+              >
+                {item}
+              </div>
             </li>
           ))}
         </ul>
