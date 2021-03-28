@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
-function Navbar({ aboutRef, homeRef, timelineRef, skillRef }) {
-  const iconSet = ["intro", "about", "devStory", "skills"];
+function Navbar({ homeRef, timelineRef, skillRef }) {
+  const iconSet = ["aboutMe", "devStory", "mySkills"];
 
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
@@ -12,13 +12,11 @@ function Navbar({ aboutRef, homeRef, timelineRef, skillRef }) {
             <li key={`${item}`}>
               <div
                 onClick={() => {
-                  if (item === "intro")
+                  if (item === "aboutMe")
                     homeRef.current.scrollIntoView({ behavior: "smooth" });
-                  if (item === "about")
-                    aboutRef.current.scrollIntoView({ behavior: "smooth" });
                   if (item === "devStory")
                     timelineRef.current.scrollIntoView({ behavior: "smooth" });
-                  if (item === "skills")
+                  if (item === "mySkills")
                     skillRef.current.scrollIntoView({ behavior: "smooth" });
                 }}
                 className={`relative top-2/4 text-white tranform cursor-pointer transform transition duration-500 hover:scale-125`}
