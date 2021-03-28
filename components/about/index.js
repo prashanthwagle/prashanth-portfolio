@@ -8,10 +8,9 @@ function About() {
       </div>
       <div className="flex-1">
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
-          <div className="font-extralight xl:inline text-lightViolet">
-            About myself
-          </div>
+          <div className="font-extralight xl:inline">About myself</div>
         </h1>
+
         <p className="py-5 font-light	text-lightViolet">
           I am a Software Developer at Ethnus R&D
           <br />
