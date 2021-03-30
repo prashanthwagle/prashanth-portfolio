@@ -17,7 +17,7 @@ function Footer() {
         <img
           className="inline"
           src="https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white"
-          style={{ transform: "scale(0.8 )" }}
+          style={{ transform: "scale(0.8)" }}
         />
       </div>
       <div className={`text-center flex-1 py-1 text-white`}>
