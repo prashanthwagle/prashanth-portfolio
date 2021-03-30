@@ -5,7 +5,7 @@ function Navbar({ homeRef, timelineRef, skillRef }) {
 
   return (
     <div style={{ position: "sticky", top: 0, zIndex: "100" }}>
-      <div className="absolute top-0 h-full w-full bg-darkViolet"></div>
+      <div className="absolute top-0 h-full w-full bg-primary"></div>
       <nav className="h-12 w-full sticky">
         <ul className="list-none flex justify-evenly">
           {iconSet.map((item) => (

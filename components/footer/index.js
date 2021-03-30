@@ -4,10 +4,10 @@ function Footer() {
   return (
     <div
       style={{ zIndex: "3" }}
-      className="flex md:flex-row flex-col justify-between mt-10 bg-darkViolet text-white p-2"
+      className="flex md:flex-row flex-col justify-between mt-10 bg-black text-white p-2"
     >
       <div className={`md:text-left text-center flex-1 py-1 text-white`}>
-        Built with 💛 with{" "}
+        Built with 💛 with
         <img
           className="inline"
           src="https://img.shields.io/badge/NextJS%20-black.svg?&style=for-the-badge&logo=NextJS&logoColor=white"
