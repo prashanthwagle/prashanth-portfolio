@@ -4,11 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        deepBlack: "#1A1A1C",
-        darkGray: "#5CDB94",
-        darkViolet: "#E03690",
-        lightViolet: "black",
-        white: "#EDF4E0",
+        primary: "#2196F3",
+        secondary: "#F2A119",
+        text: "black",
       },
     },
   },
