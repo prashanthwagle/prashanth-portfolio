@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Jumbotron({ ...restProps }) {
   return (
     <div {...restProps}>
-      <div className="mx-auto flex md:flex-row flex-col-reverse	 max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex md:justify-around md:flex-row flex-col-reverse	 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="md:text-left md:mt-0 mt-6 text-center my-auto">
           <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
             <div className="block xl:inline font-extralight">
@@ -36,14 +36,16 @@ export default function Jumbotron({ ...restProps }) {
             />
           </div>
         </div>
-        <img
-          className="h-96 mx-auto"
-          src="/heroImage.png"
-          style={{
-            maxWidth: "100%",
-            display: "block",
-          }}
-        />
+        <div className="hidden md:block">
+          <img
+            className="h-96 mx-auto"
+            src="/heroImage.png"
+            style={{
+              maxWidth: "100%",
+              display: "block",
+            }}
+          />
+        </div>
       </div>
     </div>
   );
