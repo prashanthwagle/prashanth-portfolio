@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div className="mx-auto items-center flex md:flex-row flex-col md:text-left md:mt-0 mt-6 text-center my-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div className="flex-1">
-        <img src="/myPicture.png" className="mb-8 md:mb-0 m-auto" />
+      <div className="flex-1 mb-8 md:mb-0">
+        <img src="/myPicture.png" className="m-auto" />
       </div>
       <div className="flex-1 w-4/5">
         <div className="">
