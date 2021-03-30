@@ -19,8 +19,8 @@ export default function Jumbotron({ ...restProps }) {
             </div>
           </h1>
           <div
-            className="text-2xl font-extrabold ml-1 mt-3"
-            style={{ color: "#E03690" }}
+            className="text-2xl ml-1 mt-3 text-primary"
+            // style={{ color: "#E03690" }}
           >
             <Typewriter
               options={{
