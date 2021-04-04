@@ -39,5 +39,5 @@ Manage the CSS Color variables efficiently (Tailwind config)
 Preload the images for a better UX
 Timeline: Lean the fonts out
 Skills: Do a Card View of the skills
-Change the heart emoji's color in the footer
-Meetups in Aboue me
+Meetups in About me
+Make sure that the navbar menu is scaled whenever you are in a particular segment
